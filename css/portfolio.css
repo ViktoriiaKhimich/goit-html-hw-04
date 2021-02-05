@@ -54,8 +54,8 @@ main {
   margin-top: -30px;
 }
 .projects-list .item {
+  /* display: block */
   flex-basis: calc(100% / 3 - 30px);
-  height: 404px;
   margin-left: 30px;
   margin-top: 30px;
   border: 1px solid #eeeeee;
