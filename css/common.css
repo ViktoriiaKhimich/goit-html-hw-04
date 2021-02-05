@@ -105,7 +105,7 @@ img {
   border-radius: 50%;
 }
 
-.social-link:not(:last-child) {
+.social-link-item:not(:last-child) {
   margin-right: 10px;
 }
 .social-list-icon {
@@ -213,6 +213,8 @@ img {
 }
 
 .contact-nav .link {
+  display: flex;
+  justify-content: center;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -280,7 +282,7 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-bottom: 9pxe;
+  margin-bottom: 9px;
 }
 .address:hover,
 .address:focus {
