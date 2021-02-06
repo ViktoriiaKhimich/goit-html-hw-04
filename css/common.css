@@ -105,9 +105,10 @@ img {
   border-radius: 50%;
 }
 
-.social-link-item:not(:last-child) {
+.social-link-item {
   margin-right: 10px;
 }
+
 .social-list-icon {
   width: 20px;
   height: 20px;
